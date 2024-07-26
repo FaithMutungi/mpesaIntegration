@@ -4,9 +4,7 @@ import com.Precious.Impl.dtos.*;
 
 public interface DarajaApi {
 
-    /**
-     * @return Returns Daraja API Access Token Response
-     */
+
     AccessTokenResponse getAccessToken();
 
     RegisterUrlResponse registerUrl();
